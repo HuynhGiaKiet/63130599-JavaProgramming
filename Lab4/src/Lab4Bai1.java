@@ -11,8 +11,8 @@ public class Lab4Bai1
 	{
 		
 		Scanner scanner = new Scanner(System.in);
-		SanPham sp = new SanPham();
-		sp.Nhap();
+		SanPham sp = new SanPham("iPhone 13 Pro Max", 30000000, 10);
+		//sp.Nhap();
 		sp.Xuat();
 	}
 }
