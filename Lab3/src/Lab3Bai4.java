@@ -18,7 +18,7 @@ public class Lab3Bai4 {
           fullname[i] = scanner.nextLine(); 
           System.out.print("Nhập điểm của sinh viên thứ " + (i + 1) + ": ");
           grade[i] = scanner.nextFloat();
-          //scanner.nextLine();
+          scanner.nextLine();
           
         }
 
